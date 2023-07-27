@@ -13,7 +13,7 @@ export const featuredProducts: Products = [
   {
     id: 1,
     title: "Sicilian",
-    desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
+    desc: "Encienda sus papilas gustativas con una combinación ardiente de pepperoni picante, jalapeños, hojuelas de pimiento rojo triturado y queso mozzarella derretido, brindando una patada con cada bocado.",
     img: "/temporary/p1.png",
     price: 24.9,
     options: [
@@ -34,7 +34,7 @@ export const featuredProducts: Products = [
   {
     id: 2,
     title: "Bacon Deluxe",
-    desc: "Indulge in smoky goodness with a flame-grilled beef patty, topped with crispy bacon, melted cheddar cheese, caramelized onions, and a smattering of tangy BBQ sauce.",
+    desc: "Deléitese con la delicia ahumada con una hamburguesa de ternera a la parrilla, cubierta con tocino crujiente, queso cheddar derretido, cebollas caramelizadas y un poco de salsa BBQ ácida.",
     img: "/temporary/p2.png",
     price: 29.9,
     options: [
@@ -55,7 +55,7 @@ export const featuredProducts: Products = [
   {
     id: 3,
     title: "Bella Napoli",
-    desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
+    desc: "Una delicia italiana clásica con una corteza delgada y crujiente, salsa de tomate picante, mozzarella fresca y una mezcla de hierbas aromáticas cubiertas con lechuga, tomates y una cucharada de mayonesa picante.",
     img: "/temporary/p3.png",
     price: 24.9,
     options: [
@@ -76,7 +76,7 @@ export const featuredProducts: Products = [
   {
     id: 4,
     title: "Spicy Arrabbiata",
-    desc: "Ignite your taste buds with this fiery pasta creation, combining penne in a spicy tomato sauce infused with garlic, red chili flakes, and fresh basil for the ultimate comfort food experience.",
+    desc: "Encienda sus papilas gustativas con esta creación de pasta ardiente, que combina penne en una salsa de tomate picante infundida con ajo, hojuelas de chile rojo y albahaca fresca para la máxima experiencia de comida reconfortante.",
     img: "/temporary/p4.png",
     price: 26.9,
     options: [
@@ -97,7 +97,7 @@ export const featuredProducts: Products = [
   {
     id: 5,
     title: "Jalapeño Fiesta",
-    desc: "Ignite your taste buds with a fiery kick! This burger features a succulent beef patty, fiery jalapeños, pepper jack cheese, and a zesty chipotle mayo sauce , and all the classic fixings on a toasted bun.",
+    desc: "¡Enciende tus papilas gustativas con una patada ardiente! Esta hamburguesa presenta una suculenta carne de res, jalapeños picantes, queso pepper jack y una sabrosa salsa de mayonesa con chipotle, y todas las guarniciones clásicas en un panecillo tostado.",
     img: "/temporary/p5.png",
     price: 29.9,
     options: [
@@ -118,7 +118,7 @@ export const featuredProducts: Products = [
   {
     id: 6,
     title: "Margherita Magic",
-    desc: "A timeless favorite with a twist, showcasing a thin crust topped with sweet tomatoes, fresh basil, creamy mozzarella, and a drizzle of extra virgin olive oil, fresh arugula, and a drizzle of balsamic glaze.",
+    desc: "Un favorito atemporal con un toque, que muestra una corteza delgada cubierta con tomates dulces, albahaca fresca, queso mozzarella cremoso y una llovizna de aceite de oliva virgen extra, rúcula fresca y una llovizna de glaseado balsámico.",
     img: "/temporary/p6.png",
     price: 24.9,
     options: [
@@ -139,7 +139,7 @@ export const featuredProducts: Products = [
   {
     id: 7,
     title: "Garlic Parmesan Linguine",
-    desc: "A garlic lover's delight, featuring linguine smothered in a creamy Parmesan sauce, infused with garlic and garnished with chopped parsley, bell peppers, and cherry tomatoes.",
+    desc: "Una delicia para los amantes del ajo, con linguini bañado en una salsa cremosa de queso parmesano, infundido con ajo y adornado con perejil picado, pimientos y tomates cherry.",
     img: "/temporary/p7.png",
     price: 28.9,
     options: [
@@ -160,7 +160,7 @@ export const featuredProducts: Products = [
   {
     id: 8,
     title: "Mediterranean Delight",
-    desc: "Embark on a culinary journey with this Mediterranean-inspired creation, featuring zesty feta cheese, Kalamata olives, sun-dried tomatoes, and a sprinkle of oregano.",
+    desc: "Embárquese en un viaje culinario con esta creación de inspiración mediterránea, que incluye queso feta, aceitunas Kalamata, tomates secados al sol y una pizca de orégano.",
     img: "/temporary/p8.png",
     price: 32.9,
     options: [
@@ -181,7 +181,7 @@ export const featuredProducts: Products = [
   {
     id: 9,
     title: "Hawaiian Teriyaki",
-    desc: "Experience a taste of the tropics with a juicy beef patty glazed in tangy teriyaki sauce, topped with grilled pineapple, crispy bacon, and fresh lettuce, and all the classic fixings on a toasted bun.",
+    desc: "Experimente el sabor de los trópicos con una jugosa hamburguesa de res glaseada en salsa teriyaki ácida, cubierta con piña asada, tocino crujiente y lechuga fresca, y todas las guarniciones clásicas en un panecillo tostado.",
     img: "/temporary/p9.png",
     price: 29.9,
     options: [
@@ -200,9 +200,6 @@ export const featuredProducts: Products = [
     ],
   },
 ];
-
-
-
 
 export const pizzas: Products = [
   {
@@ -354,7 +351,6 @@ export const singleProduct: Product = {
     },
   ],
 };
-
 
 type Menu = {
   id: number;
