@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 const data = [
   {
     id: 1,
-    title: "Siempre fresco y siempre crujiente y simepre caliente",
+    title: "Siempre crujiente y simepre caliente",
     image: "/slide1.png",
   },
   {
